@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Radiant_app</title>
+
+<body>
+<style>
+	.empty_div {
+  float: left;
+  position: absolute;
+  width: 30%;
+}
+.front_page {
+  position: relative;
+}
+.empty_div {
+  float: left;
+  left: 42px;
+  position: absolute;
+  top: 67%;
+  width: 45%;
+}
+.container {
+  width: 400px;
+}
+.main_div {
+  float: left;
+  width: 100%;
+}
+.empty_div.doctors {
+  left: 50%;
+  position: absolute;
+  top: 80%;
+  width: 45%;
+}
+.main_div img {
+  width: 100%;
+}
+@media screen and ( max-width: 480px ) {
+.container {
+  width: 100%;
+}
+.main_div img {
+  width: 100%;
+}
+}
+</style>
+
+	
+	<div class="main_div">
+		<div class="container">
+			<div class="front_page">
+			<img src="images/home.png">
+				<div class="empty_div">
+					<a href="patient_login.html"><p>&nbsp;</p>
+					</a>
+				</div>
+				<div class="empty_div doctors">
+					<a href="doctor_login.html"><p>&nbsp;</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
