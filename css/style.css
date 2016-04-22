@@ -1,0 +1,1308 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	
+	
+}
+*{
+	
+	padding:0px;
+	margin:0px;
+	
+}
+.schedue_app.more_collection > p {
+  float: left;
+  margin-bottom: 8px;
+  width: 100%;
+}
+.templates_div .frst_ul li{
+  float: left;
+  margin-right: 10px;
+  width:43%;
+}
+.reminder.updat_data > a {
+  margin-top: 5px;
+}
+.info_ul .reminder.updat_data {
+  float: none;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 52%;
+}
+.container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.container {
+  float: left;
+  width: 35%;
+}
+.main_div {
+  float: left;
+  width: 100%;
+ 
+}
+
+
+.bottom_img > img {
+  width: 100%;
+}
+.content_div {
+  float: left;
+  margin-top: 30px;
+  width: 100%;
+}
+.home_img {
+  float: left;
+  width: 100%;
+}
+.bottom_img {
+  float: left;
+  width: 100%;
+}
+.patnt_login {
+  color: #fff;
+  font-family: "Montserrat",sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  left: 8%;
+  position: absolute;
+  top: 72%;
+}
+.patnt_login {
+  background: #c70000 none repeat scroll 0 0;
+  padding: 12px 37px;
+}
+.patnt_login.dr_login {
+  background: none repeat scroll 0 0 #228ec9;
+  left: 12%;
+  margin-top: 80px;
+}
+.bottom_img {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+.home_img p {
+  left: 7%;
+  position: absolute;
+  top: 68%;
+  z-index: 999999999;
+}
+.home_img .dr_logo {
+  left: 11%;
+  position: absolute;
+  top: 80%;
+  z-index: 999999999;
+}
+.login_dr {
+  background: none repeat scroll 0 0 #3f3f3f;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.top_img {
+  background: none repeat scroll 0 0 #3f3f3f;
+  border-radius: 100%;
+  height: 50px;
+  left: 40%;
+  padding: 17px;
+  position: absolute;
+  top: -49px;
+  width: 50px;
+}
+.login_detail {
+  background: none repeat scroll 0 0 #3f3f3f;
+  float: left;
+  width: 100%;
+}
+.starting_div input {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+}
+.starting_div {
+  box-sizing: border-box;
+  margin: 60px auto 0;
+  padding-bottom: 24px;
+  width: 70%;
+}
+.starting_div .submit_btn {
+  background: none repeat scroll 0 0 #44ade7;
+  border: medium none !important;
+  border-radius: 19px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.starting_div input {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 21px;
+  padding: 10px;
+  width: 100%;
+}
+.starting_div li {
+  line-height: 50px;
+  list-style: outside none none;
+  width: 100%;
+}
+.starting_div ul {
+  padding-left: 0;
+}       
+.content_div.ogin_content {
+  margin-top: 70px;
+}
+.footer {
+  background: none repeat scroll 0 0 #d7d7d7;
+  float: left;
+  text-align: center;
+  width: 100%;
+  font-size: 13px;
+  position:fixed;
+  bottom: 0;
+  padding: 5px 0;
+}
+.content_div.inner_cntent {
+  background: none repeat scroll 0 0 #f6f6f5;
+  box-sizing: border-box;
+  margin-top: 15%;
+  padding: 0 24px 60px;
+  position: relative;
+}
+.top_criclecimg {
+  left: 43%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: -45px;
+}
+.top_header {
+  float: left;
+  width: 100%;
+}
+.top_header {
+  float: left;
+  
+  text-align: center;
+  width: 100%;
+}
+.top_header h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+.date_div input {
+  background-color: transparent;
+  border-color: -moz-use-text-color #ccc #ccc;
+  border-style: none solid solid;
+  border-width: 0 1px 1px;
+  float: left;
+  width: 100%;
+  padding: 2px 0 4px 6px;
+}
+.date_div form li {
+  float: left;
+  line-height: 36px;
+  list-style: outside none none;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.date_div ul {
+  float: left;
+  padding-left: 0;
+  width: 100%;
+}
+.date_div {
+  float: left;
+  width: 100%;
+  padding-bottom: 60px;
+  margin-top: 14px;
+
+}
+.frst_ul a {
+  background: none repeat scroll 0 0 #44ade7;
+  color: #fff;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+.frst_ul li {
+  display: inline-block;
+  padding-right: 13px;
+}
+.search button {
+  background: none repeat scroll 0 0 #2c1f54;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.search {
+  margin-top: 25px;
+  text-align: center;
+}
+.date_div form {
+  float: left;
+  width: 100%;
+}
+.schedue_app li {
+  display: inline-block;
+  float: left;
+  line-height: 34px;
+  margin-bottom: 30px;
+  margin-right: 47px;
+}
+.schedue_app a {
+  background: none repeat scroll 0 0 #44ade7;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.schedue_app ul {
+  float: left;
+  padding-left: 0;
+  width: 100%;
+}
+.reminder > a {
+  background: none repeat scroll 0 0 #2b1e53;
+}
+.bill_collection .reminder > a {
+  float: left;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 2px 0;
+  text-align: center;
+  width: 100%;
+}
+.bill_collection li {
+  float: left;
+  margin-bottom: 13px;
+  margin-right: 0;
+  width: 100%;
+}
+.schedue_app.bill_collection {
+  float: left;
+  width: 100%;
+}
+.content_div.inner_cntent > p {
+  color: #555555;
+  float: left;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: justify;
+  width: 100%;
+}
+.date_div label {
+  float: left;
+  width: 100%;
+}
+.gender > p {
+  float: left;
+  margin: 0;
+  vertical-align: middle !important;
+  width: 20%;
+}
+.gender input {
+  float: left;
+  margin-top: 12px;
+  vertical-align: middle !important;
+  width: 23%;
+}
+.sbmt_btn button {
+  background: #44ade7 none repeat scroll 0 0;
+  border: medium none;
+  color: #fff;
+  float: none !important;
+  font-size: 17px;
+  margin: 0 auto;
+  padding: 5px 18px;
+  text-align: center;
+  cursor: pointer;
+}
+.sbmt_btn {
+  margin-top: 12px;
+  text-align: center;
+}
+.templates_div .frst_ul li {
+  margin-bottom: 23px;
+}
+.templates_div .frst_ul a {
+  padding: 5px 0px;
+}
+.templates_div .frst_ul a {
+  float: left;
+  padding: 5px 0;
+  width: 100%;
+}
+.templates_div textarea {
+  background: #f6f6f5 none repeat scroll 0 0;
+  border-color: -moz-use-text-color -moz-use-text-color #ccc;
+  border-style: none none solid;
+  border-width: 0 0 1px;
+  float: left;
+  text-align: left !important;
+  width: 100%;
+}
+.patient_info textarea {
+   background: #f6f6f5 none repeat scroll 0 0;
+  border-color: -moz-use-text-color -moz-use-text-color #ccc;
+  border-style: none none solid;
+  border-width: 0 0 1px;
+  float: left;
+  text-align: left !important;
+  width: 100%;
+}
+.today_clction a {
+  background: transparent none repeat scroll 0 0;
+  color: #000;
+}
+.today_clction ul {
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  padding-top: 7px;
+  text-align: center;
+  width: 100%;
+}
+.today_clction li {
+  line-height: 22px;
+}
+
+/**************************************patient_record*****************************************************************/			
+
+.patient_record {
+  float: left;
+  margin-top: 15px;
+  width: 100%;
+}
+.patient_record li {
+  list-style: outside none none;
+}
+.patient_frst_ul {
+  float: left;
+  margin-top: 0;
+  padding-left: 0;
+  width: 30%;
+}
+.patient_frst_ul li {
+  background: #283269 none repeat scroll 0 0;
+  line-height: 25px;
+  margin-bottom: 25px;
+  padding: 2px;
+  text-align: center;
+}
+.patient_frst_ul a {
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+.patient_frst_ul p {
+  color: #fff;
+  font-size: 14px;
+  padding-top: 14px;
+}
+.patient_frst_ul.snd_ul {
+  margin-left: 17px;
+  margin-right: 17px;
+}
+.patient_frst_ul.snd_ul > li {
+  background: #d2d1d1 none repeat scroll 0 0;
+}
+.patient_frst_ul.thrd_ul > li {
+  background: #97daff none repeat scroll 0 0;
+}
+.patient_frst_ul.snd_ul p ,.patient_frst_ul.thrd_ul p {
+  color: #000;
+}
+.patient_record li {
+  min-height: 114px;
+}
+.schedue_app.more_collection {
+  float: left;
+  width: 100%;
+}
+.more_collection .reminder {
+  float: none;
+  margin: 0 auto;
+  
+}
+.schedue_app.more_collection {
+  float: left;
+  width: 100%;
+}
+.more_collection ul {
+  float: left;
+  padding-left: 0;
+  
+  width: 100%;
+}
+.frst_ul {
+  float: left;
+  width: 100%;
+}
+.date_div form {
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+}
+.info_ul > li {
+  float: left;
+  line-height: 25px;
+  list-style: outside none none;
+  margin-bottom: 11px;
+  width: 100%;
+}
+.info_ul .gender input {
+
+  margin-top: 7px;
+  
+  
+}
+.info_ul .reminder > a {
+  float: left;
+  width: 100%;
+}
+.info_ul .reminder {
+  float: left;
+  width: 100%;
+}
+.info_ul .reminder > a {
+  color: #fff;
+  float: left;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 6px 0;
+  text-align: center;
+  text-transform: capitalize;
+  width: 100%;
+}
+.main_btnbox button {
+  background: #44ade7 none repeat scroll 0 0;
+  border: medium none;
+  color: #fff;
+  float: right;
+  font-size: 13px;
+  padding: 3px 7px;
+  text-align: center;
+}
+.innertext {
+  float: left;
+  width: 100%;
+}
+.modal-body {
+  float: left;
+  padding: 0;
+  width: 100%;
+}
+.modal-content {
+  float: left;
+  width: 100%;
+}
+.innertext h2 {
+  background: #2b1e53 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px;
+  margin-top: 0;
+  
+}
+.date_div form .innertext input {
+  float: right;
+  margin-top: 12px;
+  width: 21%;
+}
+.date_div form .innertext li {
+  border-bottom: 1px solid #ccc;
+  float: left;
+  width: 100%;
+  padding-left: 15px;
+}
+.date_div form .innertext input {
+  float: right;
+  margin-top: 12px;
+  width: 21%;
+}
+.modal-content {
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  outline: 0 none;
+  position: relative;
+  top: 110px;
+}
+.date_div form .innertext .close_open_ul > li {
+  background: #44ade7 none repeat scroll 0 0;
+  border: medium none;
+  display: inline-block;
+  float: left;
+  margin-left: 6px;
+  margin-right: 5px;
+  padding-left: 0;
+  width: 27%;
+}
+.close_open_ul a {
+  color: #fff;
+  float: left;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}
+.info_ul .balance {
+  float: left;
+  margin-right: 16px;
+  width: 40%;
+}
+.close_open_ul .btn.btn-default {
+  background: transparent none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0;
+  color: #fff;
+  float: left;
+  font-size: 16px;
+  width: 100%;
+}
+.info_ul .select_date {
+  float: left;
+  width: 25%;
+}
+.select_date .buttonbox {
+  float: left;
+}
+.close_open_ul .btn_close .btn.btn-default {
+  background: #44ade7;
+}
+.top_header {
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+.help .main_btnbox {
+  float: left;
+  width: 100%;
+}
+.help .buttonbox {
+  float: left;
+  width: 100%;
+}
+.help .help_btn {
+  background: #283269 none repeat scroll 0 0 !important;
+  float: left;
+  width: 100%;
+}
+.help_close .btn_close {
+  display: inline-block;
+  float: none;
+  margin: 0 auto;
+  width: 23%;
+}
+.close_open_ul.help_close {
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+.help_div_data > p {
+  box-sizing: border-box;
+  padding: 10px;
+}
+.date_div .patnt_search {
+  background-image: url("../images/search.png");
+  background-position: right 5px;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  padding-bottom: 11px;
+  padding-left: 4px;
+  padding-top: 11px;
+}
+	
+.edit_patnt .edit_btn {
+  background: #44ade7 none repeat scroll 0 0;
+  border: 1px solid transparent;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  font-size: 15px;
+  margin-right: 12px;
+  margin-top: 6px;
+  width: 20%;
+}
+.date_div.contact.edit_patnt p {
+  color: #555;
+  font-size: 14px;
+}
+.edit_patnt li {
+  float: left;
+  list-style: outside none none;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+
+
+/**************************************************patient*****************************************************************************************/
+.patient_db_data {
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+}
+.patient_db_data ul {
+  float: left;
+  width: 100%;
+}
+.patient_db_data li {
+  border-bottom: 1px solid #ccc;
+  float: left;
+  line-height: 35px;
+  margin-bottom: 30px;
+  width: 100%;
+  list-style: outside none none;
+}
+.patient_db_data a {
+  float: left;
+  width: 100%;
+}
+.patient_db_data img {
+  float: left;
+  padding-right: 20px;
+  margin-bottom: 5px;
+}
+.patnt_rght {
+  float: left;
+  width: 60%;
+}
+.patnt_rght > p {
+  color: #b6b5b5;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.patient_db_data strong {
+  color: #000;
+  font-size: 15px;
+}
+.patient_db_data li:last-child {
+  border-bottom: medium none;
+}
+.connect_acc {
+  box-sizing: border-box;
+  float: left;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+.connect_acc > a {
+  background: #4fb2e8 none repeat scroll 0 0;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  float: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 6px 10px;
+  text-align: center;
+  text-transform: capitalize;
+  width: auto;
+}
+.appontmt_ul p {
+  float: left;
+  text-align: left;
+  width: 50%;
+}
+.appontmt_ul {
+  float: left;
+  width: 100%;
+}
+.appontmt_ul li {
+  float: left;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+.patient_db_data > h3 {
+  color: #000;
+  font-size: 16px;
+}
+.date_div.request_form li {
+  border-bottom: medium none;
+}
+.request_form form{
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+.request_heading{
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 6px;
+}
+.request_form input {
+  background-color: transparent;
+  border-color: -moz-use-text-color #ccc #ccc;
+  border-style: none solid solid;
+  border-width: 0 1px 1px;
+  float: left;
+  padding: 0 3px 4px 4px;
+  width: 100%;
+}
+.date_div.request_form li {
+  float: left;
+  line-height: 16px;
+  list-style: outside none none;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.date_div.request_form {
+  float: left;
+  margin-top: 1px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+.date_div.request_form ul {
+  margin-bottom: 0;
+  margin-top: 14px;
+}
+.frs_rqst_part {
+  float: left;
+  width: 100%;
+}
+.request_form .gender > label {
+  color: #555;
+  font-size: 14px;
+  font-weight: 400;
+}
+.request_form .gender > p {
+  float: left;
+  margin-top: 4px;
+  width: 16%;
+}
+.request_form .gender input {
+  float: left;
+  margin-top: 3px;
+  width: 20px;
+}
+.request_form .balance{
+  float: left;
+  margin-right: 16px !important;
+  width: 40% !important;
+}
+.request_app .sbmt_btn {
+  list-style: outside none none;
+}
+.request_app {
+  float: left;
+  width: 100%;
+}
+/**********************************************daily******************************************************************************/
+
+.daily_heading {
+  border: 0 none;
+  bottom: 0;
+  float: left;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.daily_frst {
+  float: left;
+  width: 100%;
+}
+.frst_daily_report {
+  float: left;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.imgpart {
+  float: left;
+  position: relative;
+  width: 100%;
+}.imgpart img {
+  float: left;
+  width: 100%;
+}.daily_heading {
+  border: 0 none;
+  bottom: 0;
+  float: left;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.daily_heading > p {
+  box-sizing: border-box;
+  float: left;
+  padding: 0 14px;
+  width: 100%;
+}
+.daily_heading h4 {
+  color: #fff;
+  float: left;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+}
+.daily_heading strong {
+  color: #cb0000;
+  float: left;
+  font-size: 14px;
+}
+.daily_heading .text_img {
+  float: right;
+}
+.dail_detail .daily_heading {
+  position: unset;
+}
+.dail_detail .imgpart {
+  position: unset;
+}
+.dail_detail {
+  position: unset;
+}.dail_detail h4 {
+  color: #000;
+}
+.daily_heading > p {
+  font-size: 13px;
+  line-height: 20px;
+  text-align: justify;
+}
+.video_block {
+  float: left;
+  width: 100%;
+}
+.video_frst {
+  float: left;
+  width: 100%;
+}
+.video_frst_blk {
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  width: 50%;
+}
+.video_frst_blk p {
+  color: #000;
+  margin-top: 10px;
+}
+.video_frst_blk > a {
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+.video_frst h2 {
+  color: #000;
+  font-size: 18px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.vido_detail .video_frst_blk {
+  float: left;
+  width: 100%;
+}
+.vido_detail .video_frst_blk img {
+  width: 100%;
+}
+.duration {
+  float: left;
+  width: 100%;
+}
+.vido_detail .video_frst_blk {
+  float: left;
+  text-align: left;
+  width: 100%;
+}
+.duration > p {
+  color: #000;
+  margin-bottom: 0;
+}
+.duration strong {
+  color: #d90000;
+  font-size: 13px;
+}
+.video_frst_blk > p {
+  color: #555555;
+  float: left;
+  width: 100%;
+}
+.person_detail > li {
+  border-bottom: 1px solid #ccc;
+  float: left;
+  line-height: 28px;
+  list-style: outside none none;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.person_detail .buttonbox > button {
+  background: transparent none repeat scroll 0 0;
+  color: #44ade7;
+  float: left;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  width: 100%;
+}
+.person_detail .modal-dialog {
+  width: 400px;
+}
+.person_detail .innertext li {
+  list-style: outside none none;
+  padding-left: 18px;
+  line-height: 25px;
+}
+.info_close .btn.btn-default {
+  background: #44ade7 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 16px;
+  width: 22%;
+  margin-bottom: 8px;
+  margin-right: 10px;
+}
+.person_detail a {
+  background: transparent none repeat scroll 0 0;
+  color: #44ade7;
+  float: left;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  width: 100%;
+  text-decoration:none;
+}
+.person_detail img {
+  float: left;
+}.detail_prson {
+  float: right;
+  width: 86%;
+}
+.detail_prson > p {
+  line-height: 20px;
+  margin-bottom: 0;
+}
+.accinfo {
+  float: left;
+  width: 100%;
+}
+.person_detail {
+  float: left;
+  width: 100%;
+}
+.person_detail .innertext p {
+  box-sizing: border-box;
+  padding: 7px;
+}
+.paswrd_update form li {
+  margin-bottom: 16px;
+}
+.top_div_userid li {
+  line-height: 27px;
+  list-style: outside none none;
+}
+.top_div_userid {
+  float: left;
+  width: 100%;
+}
+.paswrd_update form {
+  margin-top: 20px;
+}
+.mor_ifo {
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+.mor_ifo > a {
+  background: #388bcf none repeat scroll 0 0;
+  color: #fff;
+  padding: 7px 13px;
+  text-align: center;
+  text-decoration: none;
+}
+.video_frst_blk.health_data > p {
+  margin-bottom: 14px;
+}
+
+.schedue_app a {
+  float: left;
+  font-size: 15px;
+  font-weight: 400;
+  padding:0px 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 100%;
+}
+.schedue_app li {
+  display: inline-block;
+  float: left;
+  line-height: 34px;
+  margin-bottom: 30px;
+  margin-right: 14px;
+  width: 45%;
+}
+
+/*******************************************respnsive*************************************************************/
+
+@media(max-width: 1321px){
+	
+.schedue_app li {
+  display: inline-block;
+  float: left;
+  line-height: 34px;
+  margin-bottom: 30px;
+  margin-right: 28px;
+}
+}
+@media(max-width: 1132px){
+.schedue_app li {
+  display: inline-block;
+  float: left;
+  line-height: 34px;
+  margin-bottom: 30px;
+  margin-right: 14px;
+}	
+	
+}
+@media(max-width: 1066px){
+.schedue_app .reminder {
+  width: 100%;
+}
+}
+@media(max-width: 1024px){
+
+.container {
+  float: left;
+  width: 50%;
+}
+}
+
+
+@media(max-width: 976px){
+.container {
+  float: left;
+  width: 45%;
+}
+.patient_record li {
+  min-height: 137px;
+}
+}
+@media(max-width: 877px){
+	
+.container {
+  float: left;
+  width: 50%;
+}
+}
+@media(max-width: 791px){
+
+.container {
+    float: left;
+    width: 54%;
+}
+}
+@media(max-width: 768px){
+
+.gender > p {
+  float: left;
+  margin: 0;
+  vertical-align: middle !important;
+  width: 34%;
+}
+.container {
+  float: left;
+  width: 100%;
+}
+}
+
+@media(max-width: 690px){
+.patnt_login {
+ 	padding: 6px 16px;
+}
+.patnt_login {
+ 	font-size: 16px;
+}
+.home_img p {
+  left: 6%;
+  position: absolute;
+  top: 64%;
+  z-index: 999999999;
+}
+.home_img .dr_logo {
+  left: 8%;
+  position: absolute;
+  top: 76%;
+  z-index: 999999999;
+}
+.patnt_login.dr_login {
+ 	margin-top: 53px;
+}
+}
+
+
+@media(max-width: 580px)
+{
+.container {
+  float: left;
+  width: 100%;
+}
+
+.patnt_login {
+  color: #fff;
+  font-family: "Montserrat",sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  left: 8%;
+  position: absolute;
+  top: 72%;
+}
+.patnt_login {
+  background: #c70000 none repeat scroll 0 0;
+  padding: 12px 37px;
+}
+.patnt_login.dr_login {
+  background: none repeat scroll 0 0 #228ec9;
+  left: 12%;
+  margin-top: 80px;
+}
+
+.home_img p {
+  left: 7%;
+  position: absolute;
+  top: 68%;
+  z-index: 999999999;
+}
+.home_img .dr_logo {
+  left: 11%;
+  position: absolute;
+  top: 80%;
+  z-index: 999999999;
+}
+
+
+
+
+
+}
+@media(max-width: 550px)
+{
+.main_div {
+  float: left;
+  
+  width: 100%;
+}	
+	
+}
+@media(max-width: 463px){
+	
+.patient_record li {
+  min-height: 132px;
+}
+	
+}
+@media(max-width: 462px){
+.gender > p {
+  float: left;
+  margin: 0;
+  vertical-align: middle !important;
+  width: 27%;
+}
+}
+@media(max-width: 438px){
+.main_div {
+  float: left;
+  
+  width: 100%;
+}
+}
+@media(max-width: 403px){
+.patient_frst_ul.snd_ul {
+  margin-left: 0;
+  margin-right: 0;
+}
+.patient_frst_ul {
+  float: left;
+ 
+  width: 100%;
+}	
+	
+}
+@media(max-width: 376px){
+.templates_div .frst_ul li{
+  float: left;
+  margin-right: 10px;
+  width: 40%;
+}
+}
+
+@media(max-width: 362px){
+.gender > p {
+  float: left;
+  margin: 0;
+  vertical-align: middle !important;
+  width: 35%;
+}
+.schedue_app .reminder > a {
+  background: #2b1e53 none repeat scroll 0 0;
+  font-size: 14px;
+ 
+}
+.schedue_app li {
+  display: inline-block;
+  float: left;
+  line-height: 34px;
+  margin-bottom: 30px;
+  margin-right: 5px;
+}
+.patient_frst_ul.snd_ul {
+  margin-left: 0;
+  margin-right: 0;
+}
+.patient_frst_ul {
+  float: left;
+ 
+  width: 100%;
+}
+
+
+}
+@media(max-width: 340px){
+.video_frst_blk {
+  float: left;
+  width: 100%;
+}
+}
+@media(max-width: 320px){
+.main_div {
+  float: left;
+
+  width: 100%;
+}
+
+
+.patient_db_data li {
+  
+  line-height: 23px;
+ 
+}
+
+}
+
+
+

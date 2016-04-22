@@ -1,71 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Radiant_app</title>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Radiant</title>
+<link rel="stylesheet" href="css/style.css"/>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
+
+
+
+</head>
 <body>
-<style>
-	.empty_div {
-  float: left;
-  position: absolute;
-  width: 30%;
-}
-.front_page {
-  position: relative;
-}
-.empty_div {
-  float: left;
-  left: 42px;
-  position: absolute;
-  top: 67%;
-  width: 45%;
-}
-.container {
-  width: 400px;
-}
-.main_div {
-  float: left;
-  width: 100%;
-}
-.empty_div.doctors {
-  left: 50%;
-  position: absolute;
-  top: 80%;
-  width: 45%;
-}
-.main_div img {
-  width: 100%;
-}
-@media screen and ( max-width: 480px ) {
-.container {
-  width: 100%;
-}
-.main_div img {
-  width: 100%;
-}
-}
-</style>
-
-	
-	<div class="main_div">
-		<div class="container">
-			<div class="front_page">
-			<img src="images/home.png">
-				<div class="empty_div">
-					<a href="patient_login.html"><p>&nbsp;</p>
-					</a>
-				</div>
-				<div class="empty_div doctors">
-					<a href="doctor_login.html"><p>&nbsp;</p>
-					</a>
-				</div>
+<html>
+ <header>
+			<div class="logo">
+			<a href="#"><img src="images/logo.png"></a>
 			</div>
-		</div>
+		</header>
+<div class="main_div">
+	<div class="container">
+		
+			<div class="content_div">
+				<div class="home_img">
+					<div class="bottom_img"><img src="images/homeimg.jpg"></div>
+					<p><img src="images/patients_logo.png"></p><a href="patient/login.html"><div class="patnt_login">FOR PATIENTS</div></a>
+					<p class="dr_logo"><img src="images/doctor_logo.png"></p><a href="doctor/login.html"><div class="patnt_login dr_login">FOR DOCTORS</div></a>
+				</div>
+				
+			</div>
 	</div>
-
-</body>
+</div> 
+<div class="footer"><!--------------------------footer-------------------------------------->
+    <P>Copyright 2016 - Radiant Health Service</p>
+</div>
 </html>
+</body>

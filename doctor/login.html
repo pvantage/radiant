@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta username="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Radiant</title>
+<link rel="stylesheet" href="../css/style.css"/>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/../css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/../css'>
+<script type="text/javascript" src="../js/jquery.js"></script>
+
+	<script type="text/javascript" src="../js/validate.js"></script>
+
+	<script type="text/javascript">
+
+	/*
+	var myData = JSON.parse(localStorage.getItem('myData'));
+	var i;
+
+	for (i = 0; i < myData.length; i = i + 1) {
+		console.log(myData[i].firstname);      // this should output the firstnames.
+	}*/
+
+	$(document).ready(function(){
+			jQuery( document ).on( "mobileinit", function() {
+				jQuery.mobile.allowCrossDomainPages = true;
+			});
+			
+				var contentType ="application/x-www-form-urlencoded; charset=utf-8";
+				if(window.XDomainRequest){contentType = "text/plain";}
+				jQuery.support.cors = true;
+				
+		$.ajax({
+			url: "http://tawebserver.com/vikas/getdata.php",    // path to remote script
+			dataType: "JSON",                                // data set to retrieve JSON
+			success: function (data) {                       // on success, do something...
+				// grabbing my JSON data and saving it
+				// to localStorage for future use.
+				//localStorage.setItem('myData', JSON.stringify(data));
+				//console.log(data);
+				//alert(data);
+			}
+		});
+	$("#login").on('click',function(){
+		
+		if($("#username").val()=="" || $("#password").val()==""){
+			alert('Please enter Username and Password');
+			return false;
+		}
+		else if($("#username").val()=="admin" && $("#password").val()=="Vantage@123"){
+			$("#login-form").attr('action','patient_record_ondr.html');
+			
+			//alert();
+			return true;
+		}
+		else{
+			alert('Wrong username or password');
+			return false;
+		}
+	});
+		//alert();
+	});
+
+	
+	
+	function authenticate(){
+		alert();
+	}
+	</script>
+
+</head>
+<body>
+<html>
+<header>
+			<div class="logo">
+			<a href="#"><img src="../images/logo.png"></a>
+			</div>
+		</header>
+<div class="main_div">
+	<div class="container">
+	<div class="details"></div>
+		<form name="login-form" method="post" id="login-form" />
+			<div class="content_div ogin_content">
+				<div class="login_dr">
+                	<div class="top_img">
+                    	<img src="../images/dr_g.png">
+                    </div>
+                    	<div class="login_detail">
+                        	<div class="starting_div">
+                            <ul>
+                            <li class="userusername"><input type="text" id="username" name="username" placeholder="Userusername"></li>
+                            <li class="paswrd"><input type="password" id="password"  name="password" placeholder="password"></li>
+                            <li><input id="login" class="submit_btn" type="submit" name="login" value="login"></li>
+                            </ul>
+                        </div></div>
+                </div>
+				
+			</div>
+        </form>
+	</div>
+    
+</div>
+<div class="footer"><!--------------------------footer-------------------------------------->
+    			<P>Copyright 2016 - Radiant Health Service</p>
+</div>
+</html>
+</body>

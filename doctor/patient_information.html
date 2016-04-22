@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Radiant</title>
+ 
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap1.min.js"></script>
+  <link rel="stylesheet" href="../css/style.css"/>
+ 
+</head>
+
+
+<body>
+<header>
+		<div class="logo">
+		<a href="#"><img src="../images/logo.png"></a>
+		</div>
+</header>
+
+<div class="main_div">
+	<div class="container">
+	
+	<div class="content_div inner_cntent patient_info">
+                <div class="top_criclecimg">
+                <img src="../images/top_icon.png">
+                </div>
+                <p><a href="../index.html"><img src="../images/home.png"></a></p>
+                	<div class="top_header">
+                    <h3>Enter Patient Information</h3>
+                    </div>
+					
+			<div class="date_div">
+				
+				
+				<form class="patnt_info" name="" method="post"> 
+                <!---------------------------------pop-up_content startss------------------------------------------------>
+                <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      
+            <div class="modal-body">
+                                <div class="innertext">
+									
+								<form action="demo_form.asp">
+								  <h2>Select/ Manage Template</h2>
+                                            <ul>
+                                            <li>More Patient Details<input type="radio" name="name" placeholder="Enter partial or full data"></li>
+                                             <li>Patient Education<input type="radio" name="name" placeholder="Enter partial or full data"></li>
+                                              <li>Allergies<input type="radio" name="name" placeholder="Enter partial or full data"></li>
+                                              <li>Allergies<input type="radio" name="name" placeholder="Enter partial or full data"></li>
+                                            </ul>
+                                            <ul class="close_open_ul">
+                                            <li><a href="#">Select</a></li>
+                                            <li><a href="#">Manage</a></li>
+                                            <li><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></li>
+                                            </ul>
+								</form>
+                                
+									
+                                
+                                </div>
+            </div>    
+    </div>
+  </div>
+</div>
+
+
+<div id="myModal1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      
+            <div class="modal-body">
+                                <div class="innertext">
+									
+								<form action="demo_form.asp">
+								  <h2>Select/ Manage Template</h2>
+                                            <ul>
+                                            <li>14-Mar-2016</li>
+                                             <li>+<br/>14<br/>-</li>
+                                           
+                                            </ul>
+                                            <ul class="close_open_ul">
+                                            <li><a href="#">Select</a></li>
+                                            <li><a href="#">Manage</a></li>
+                                            <li class="btn_close"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </li>
+                                                <li class="btn_close"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </li>
+                                            </ul>
+								</form>
+                                
+									
+                                
+                                </div>
+            </div>    
+    </div>
+  </div>
+</div>
+
+
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      
+            <div class="modal-body">
+                                <div class="innertext">
+									
+								<form action="demo_form.asp">
+								  <h2>Select/ Manage Template</h2>
+                                            <ul>
+                                            <li>More Patient Details<input type="radio" name="name" placeholder="Enter partial or full data"></li>
+                                             <li>Patient Education<input type="radio" name="name" placeholder="Enter partial or full data"></li>
+                                              <li>Allergies<input type="radio" name="name" placeholder="Enter partial or full data"></li>
+                                              <li>Allergies<input type="radio" name="name" placeholder="Enter partial or full data"></li>
+                                            </ul>
+                                            <ul class="close_open_ul">
+                                            <li><a href="#">Select</a></li>
+                                            <li><a href="#">Manage</a></li>
+                                            <li><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></li>
+                                            </ul>
+								</form>
+                                
+									
+                                
+                                </div>
+            </div>    
+    </div>
+  </div>
+</div>
+
+
+<!---------------------------------pop-up_content endss------------------------------------------------>
+                <ul class="info_ul">
+                <li><label>Name</label><input type="text" name="name" placeholder="Enter partial or full data"></li>
+               
+                
+                <li> <div class="main_btnbox"><div class="buttonbox" data-toggle="modal" data-target='#myModal'>
+<button>Template ></button></div></div> 
+</li>
+         <li><label>Notes</label><textarea form="usrform" name="comment">Enter other notes such as chronic condition,allergis,referred by existing patient etc.</textarea></li>
+              <li><label>Email</label><input type="text" name="name" placeholder="Enter partial or full data"></li>
+                <li><label>Address</label><input type="text" name="name" placeholder="Enter partial or full data"></li>
+                <li><label>Cell phone</label><input type="text" name="name" placeholder="Enter partial or full data"></li>
+                <li><label>DOB/ Age</label><input type="text" name="name" placeholder="Enter partial or full data"></li>
+                <li class="gender"><label>Sex</label><p>Male<input type="radio" name="name" value="Male"></p><p>Female<input type="radio" name="name" value"Female"></p></li>
+                <li><label>Home phone</label><input type="text" name="name" placeholder="Enter partial or full data"></li>	
+                <li><label>Work phone</label><input type="text" name="name" placeholder="Enter partial or full data"></li>
+     			<li class="reminder"><a href="#">New Visit Information</a></li>
+                <li><label>14 Mar 2016 12:09:00</label></li>
+                                <li> <div class="main_btnbox"><div class="buttonbox" data-toggle="modal" data-target='#myModal'>
+                            <button>Template ></button></div></div></li>
+				 <li><label>Clinical notes</label><input type="text" name="name" placeholder="Enter partial or full data"></li>
+                
+                                <li> <div class="main_btnbox"><div class="buttonbox" data-toggle="modal" data-target='#myModal'>
+                            <button>Template ></button></div></div></li>
+                <li><label>Medication</label><input type="text" name="name" placeholder="Enter partial or full data"></li>
+               
+                                <li> <div class="main_btnbox"><div class="buttonbox" data-toggle="modal" data-target='#myModal'>
+                            <button>Template ></button></div></div></li>
+                            <li><label>Other visit notes</label><textarea form="usrform" name="comment">Enter other visit note such as test results, diet advice,exercises, referrals etc.</textarea></li>
+                            <li class="balance"><label>Old Balance</label><input type="text" name="name" placeholder="Enter partial or full data"></li>
+                            <li class="balance"><label>Amount Due</label><input type="text" name="name" placeholder="Enter partial or full data"></li>
+                            <li class="balance"><label>Amount Paid</label><input type="text" name="name" placeholder="Enter partial or full data"></li><li class="balance"><label>Balance Due</label><input type="text" name="name" placeholder="Enter partial or full data"></li>
+                            <li><label>If Next Appointment needed</label></li>
+                            <li class="balance"><label>Select Date</label><input type="text" placeholder="" name="name"></li>
+                            <li class="balance"><label>Select Time</label><input type="text" placeholder="" name="name"></li>
+                            
+                            <li class="reminder updat_data"><a href="#">update data</a></li>
+               
+				</ul>
+				 
+				 </form>
+                 
+			</div>
+	</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+<div class="footer"><!--------------------------footer-------------------------------------->
+   <P>Copyright 2016 - Radiant Health Service</p>
+ </div>
+ 
+<!-------------------------popup_data-----------------------------------------> 
+
+<!----------------------------popup_data--------------------------->
+</body>
+
+</html>
+
